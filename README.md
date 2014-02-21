@@ -25,5 +25,10 @@ Dotfiles which I forked from https://github.com/Sirupsen/dotfiles
 
 # Installing
 
-I use `linker.sh` to clone and symlink my dotfiles across machines. Invoke it to
-symlink the dotfiles. It will prompt to override if the files already exist.
+`cd ~`
+
+`git clone git@github.com:releod/dotfiles.git .dotfiles`
+
+`cd .dotfiles`
+
+`./install.sh`
