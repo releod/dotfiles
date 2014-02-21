@@ -25,10 +25,5 @@ Dotfiles which I forked from https://github.com/Sirupsen/dotfiles
 
 # Installing
 
-`cd ~`
-
-`git clone git@github.com:releod/dotfiles.git .dotfiles`
-
-`cd .dotfiles`
-
-`./install.sh`
+One liner:
+`cd ~ && git clone git@github.com:releod/dotfiles.git .dotfiles && cd .dotfiles && ./install.sh && cd ~`
