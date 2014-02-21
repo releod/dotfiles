@@ -1,6 +1,6 @@
 [user]
-  name = Simon Eskildsen
-  email = sirup@sirupsen.com
+  name = Adam Doeler
+  email = adam@adamdoeler.com
 [color]
   branch = auto
   diff = auto
@@ -10,7 +10,7 @@
 [merge]
   tool = vimdiff
 [core]
-  editor = /usr/bin/vim
+  editor = subl -n -w
 [interactive]
   singlekey = true
 [push]
@@ -24,3 +24,9 @@
   helper = osxkeychain
 [init]
   templatedir = ~/.git_template
+[branch]
+  autosetupmerge = true
+[grep]
+  lineNumber = true
+[heroku]
+  account = personal
