@@ -43,7 +43,6 @@ ZSH_THEME="sunaku"
 plugins=(git rbenv bundler)
 
 source $ZSH/oh-my-zsh.sh
-source /opt/boxen/env.sh
 
 ## Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
