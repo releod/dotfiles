@@ -10,7 +10,8 @@
 [merge]
   tool = vimdiff
 [core]
-  editor = subl -n -w
+  editor = vi
+	pager = less
 [interactive]
   singlekey = true
 [push]
